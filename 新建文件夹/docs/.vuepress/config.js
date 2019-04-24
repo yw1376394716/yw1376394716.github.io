@@ -1,6 +1,6 @@
 module.exports = {
     title: '钱不多随笔',
-    description: '钱不多的个人网站',  // meta 中的描述文字，意义不大，SEO用
+    description: '钱不多,个人网站,博客,前端',  // meta 中的描述文字，意义不大，SEO用
     head: [ 
         // 注入到当前页面的 HTML <head> 中的标签  
         // 这里的 '/' 指向 docs/.vuepress/public 文件目录 
@@ -21,8 +21,8 @@ module.exports = {
              // 单项 text：显示文字，link：指向链接
              // 这里的'/' 指的是 docs文件夹路径
              // [以 '/' 结尾的默认指向该路径下README.md文件]
-            { text: '求索', link: '/FAQ/' },  // http://localhost:8080/Wiki1001Pro/FAQ/
-            { text: '仓库', link: '/Store/' },
+            { text: '求索', link: '/FAQ/' },  
+            { text: '资料', link: '/Store/' },
             { text: '随笔', link: '/Thought/' },
             // 多项，下拉形式
             {
@@ -35,9 +35,7 @@ module.exports = {
             {
                 text: 'GitHub',
                 items: [
-                    { text: 'GitHub首页', link: 'https://github.com/Mulander-J' },
-                    { text: 'Island', link: 'https://mulander-j.github.io/island/code/html/index.html' },
-                    { text: 'TimeWaster', link: 'https://mulander-j.github.io/timeWaster/demo/index.html#/' },
+                    { text: 'GitHub首页', link: 'https://github.com/yw1376394716' },
                 ]
             },
         ],
@@ -66,7 +64,6 @@ module.exports = {
                         ['/FAQ/Console/A002','#A002_插件清单']
                     ]
                 },
-                ['/FAQ/','百科首页'],
                 ['/FAQ/Pool/SkillStack','技术栈'],
                 // ['/FAQ/Pool/Review','归去来']
             ],
@@ -76,7 +73,7 @@ module.exports = {
                 {
                     title: '游记',
                     children: [
-                        ['/Thought/Travels/beiPing','北平游记'],
+                        ['/Thought/Travels/beiPing','医院游记'],
                     ]
                 },
                 {

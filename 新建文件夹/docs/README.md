@@ -3,7 +3,7 @@ home: true
 heroImage: /img/my.jpg
 heroText: 准备结婚.....
 # Wiki 1001
-tagline: 6月2号结婚,好忙！
+tagline: 6月2号结婚,最近好忙！！！
 #  Meet 1000 Books & Unit Them Into 1 Wiki
 actionText: Get Wiki →
 actionLink: /FAQ/
